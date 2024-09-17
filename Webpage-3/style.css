@@ -82,7 +82,36 @@ line-height: 80px;
     right: 0;
     top: 0;
 }
+.dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
 
+.dropdown ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 12px;
+    text-align: right;
+}
+
+.dropdown li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown li a:hover {
+    background-color: #555;
+}
 .menu{
     display: block;
     width: 25px;
@@ -150,7 +179,7 @@ line-height: 80px;
             margin: 0;
     }
     .hero{
-        background-image:url(phone.jpg);
+        background-image:url(/Webpage-3/Images/phone.jpg);
     }
 }
 
